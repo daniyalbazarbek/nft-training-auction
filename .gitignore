@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Hardhat build/cache output
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+
+# Vite/build output
+dist/
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Assignment source file, not needed in repo
+Final Project 2.pdf
